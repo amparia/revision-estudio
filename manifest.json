@@ -1,22 +1,23 @@
 {
   "format": "amparia-office-review-packet/1",
-  "edition": "2026.11.05.2",
-  "sha256": "72b3ab5f6107edb24e37c21d28c3e2a1c7657520b6f3b3be499348655e209c95",
-  "sourceRevision": "743f25ddb7d72cccb87ae3a5d0dfe27a3ce2bf4e",
+  "edition": "2026.11.05.3",
+  "sha256": "8269ba4e93c44cf7e2368a0da0aa0cad025b49a9bbcb67fec861311f3cc5330e",
+  "sourceRevision": "59855bc8f98ef4654c2e9e5f88f7f7808d1ff822",
   "sourceFiles": {
     "app/src/main/resources/legal-policy/assessment-rules/ar-debtor-bankruptcy-preliminary-assessment/2026.11.04-simplified.1.json": "bb2ad7d343e6dfb11ce0f6d1d05eb11e74b69d67f22f1c2f586494c19fdc7661",
     "app/src/main/resources/legal-policy/checklists/ar-debtor-bankruptcy-natural-person/2026.10.14-reviewed.1.json": "a95c2ee359d1f6d7bcfac98d88168ea5c47877436630bbc2444d6ee5844cf451",
     "app/src/main/resources/legal-policy/intake-questionnaires/ar-debtor-bankruptcy-eligibility-screening/office-draft-1.0.json": "7ac2a479e3d535272806b3bc6af58b489b467192be59da16346b51ec7313af4f",
-    "site/office-review/content.es.json": "a7f48c51cbc18c1a60a62f5224c9eab3feaf5b2397e81e42f3612757c482468e",
-    "site/office-review/template.html": "ea5c385d45429534fbef0878ea19c38283f781f536360bd3a530f1b387fd700a",
-    "site/office-review/style.css": "75b06bc12605bb91e2df061fb043bccd9e34c5b115c74d4807268d4472e79fb2",
-    "scripts/build_office_review_site.py": "3b43a1a55e9788b3c3f8ae0217be3a59026f69f28f02ce7b788f820cf178af77",
+    "site/office-review/content.es.json": "0b19fa6b37ee0963c00591d15858021384ea578d6c5f55f10095e121c7f1ce83",
+    "site/office-review/template.html": "ec3558c844cd60a6ee68f36a1bf0a93b14599f896401b44e8e7ba68c2fa0f4ae",
+    "site/office-review/style.css": "24b1d7e8356b312d56aae484bf0e857f424c5fa2527a413c9c74f44fc64c6f76",
+    "scripts/build_office_review_site.py": "f2a13b0dfe4d24bd0112bc99268c5a243daaec647d4dcff7323bdd2a45a51de5",
     "app/src/main/webapp/i18n/es/officeReview.json": "98b8b8af291a2147a307bf352304c19c51dc6f991fe6d29ea222d1529227a6d4",
     "app/src/main/webapp/i18n/es/caseChecklist.json": "40244ed14d3ea75213536bcd9a1f34ba996554482b8e5f7500afa88686957968",
     "app/src/main/java/com/amparia/assessment/application/OfficeAssessmentDecisionEditor.java": "2b06c11a27b58bb98ac7cae05cbfe73ec0eb7bec422b42f6e249e48e51fcf743"
   },
   "responseDestination": "amparia.legal@gmail.com",
   "publicationUrl": "https://amparia.github.io/revision-estudio/",
+  "submissionEnabled": false,
   "decisionOptions": [
     {
       "value": "AGREE",
