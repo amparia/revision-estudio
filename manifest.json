@@ -1,16 +1,16 @@
 {
   "format": "amparia-office-review-packet/1",
-  "edition": "2026.11.05.1",
-  "sha256": "02f3e1080bf506c9b861e439be429038c4b8f471a0d29824c5c053d127cec4cb",
-  "sourceRevision": "1fea927aedb544b43b2827a917605ea45905b1e9",
+  "edition": "2026.11.05.2",
+  "sha256": "72b3ab5f6107edb24e37c21d28c3e2a1c7657520b6f3b3be499348655e209c95",
+  "sourceRevision": "743f25ddb7d72cccb87ae3a5d0dfe27a3ce2bf4e",
   "sourceFiles": {
     "app/src/main/resources/legal-policy/assessment-rules/ar-debtor-bankruptcy-preliminary-assessment/2026.11.04-simplified.1.json": "bb2ad7d343e6dfb11ce0f6d1d05eb11e74b69d67f22f1c2f586494c19fdc7661",
     "app/src/main/resources/legal-policy/checklists/ar-debtor-bankruptcy-natural-person/2026.10.14-reviewed.1.json": "a95c2ee359d1f6d7bcfac98d88168ea5c47877436630bbc2444d6ee5844cf451",
     "app/src/main/resources/legal-policy/intake-questionnaires/ar-debtor-bankruptcy-eligibility-screening/office-draft-1.0.json": "7ac2a479e3d535272806b3bc6af58b489b467192be59da16346b51ec7313af4f",
-    "site/office-review/content.es.json": "8bbd5c6b52a07b235efffe09f9eb9a71b150ecc64cfa05435fe6281bc3dddb91",
+    "site/office-review/content.es.json": "a7f48c51cbc18c1a60a62f5224c9eab3feaf5b2397e81e42f3612757c482468e",
     "site/office-review/template.html": "ea5c385d45429534fbef0878ea19c38283f781f536360bd3a530f1b387fd700a",
-    "site/office-review/style.css": "2203e6f17b6b4bc3024d62a2a1c57158c6d49294765e2f463c72db60e2891e20",
-    "scripts/build_office_review_site.py": "5649ef898a5d25f6bdfbc5b4a5624ffafc08b2fd800dabb5d9d4fd75d4a81157",
+    "site/office-review/style.css": "75b06bc12605bb91e2df061fb043bccd9e34c5b115c74d4807268d4472e79fb2",
+    "scripts/build_office_review_site.py": "3b43a1a55e9788b3c3f8ae0217be3a59026f69f28f02ce7b788f820cf178af77",
     "app/src/main/webapp/i18n/es/officeReview.json": "98b8b8af291a2147a307bf352304c19c51dc6f991fe6d29ea222d1529227a6d4",
     "app/src/main/webapp/i18n/es/caseChecklist.json": "40244ed14d3ea75213536bcd9a1f34ba996554482b8e5f7500afa88686957968",
     "app/src/main/java/com/amparia/assessment/application/OfficeAssessmentDecisionEditor.java": "2b06c11a27b58bb98ac7cae05cbfe73ec0eb7bec422b42f6e249e48e51fcf743"
