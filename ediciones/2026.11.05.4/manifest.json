@@ -1,0 +1,253 @@
+{
+  "format": "amparia-office-review-packet/2",
+  "edition": "2026.11.05.4",
+  "sha256": "47c283179ee6637a2a301db8e15a2491ecbae1611a5b237ae802afc06e5b51f2",
+  "sourceRevision": "212e2890c4161681204c77c364fa8a7cc0810db4",
+  "sourceFiles": {
+    "app/src/main/resources/legal-policy/assessment-rules/ar-debtor-bankruptcy-preliminary-assessment/2026.11.04-simplified.1.json": "bb2ad7d343e6dfb11ce0f6d1d05eb11e74b69d67f22f1c2f586494c19fdc7661",
+    "app/src/main/resources/legal-policy/checklists/ar-debtor-bankruptcy-natural-person/2026.10.14-reviewed.1.json": "a95c2ee359d1f6d7bcfac98d88168ea5c47877436630bbc2444d6ee5844cf451",
+    "app/src/main/resources/legal-policy/intake-questionnaires/ar-debtor-bankruptcy-eligibility-screening/office-draft-1.0.json": "7ac2a479e3d535272806b3bc6af58b489b467192be59da16346b51ec7313af4f",
+    "site/office-review/content.es.json": "ecdd2033a662079b92e55d333a106cc8b7ea7e50660227dfc057cd4d12752f4d",
+    "site/office-review/template.html": "6e17ca3fd465941b4d724212586bc2046b6196f6a6e2aa0239ed2d7a61e0c850",
+    "site/office-review/style.css": "688c539810d5ec42b3d4eba7d6094f28c542f14d6361f5f5faeda81f83cd6daf",
+    "scripts/build_office_review_site.py": "dd90b85cb9c5a84e2bcf33ee3f8d34be159dac207ebe61b17cd95af862e2e5ed",
+    "app/src/main/webapp/i18n/es/officeReview.json": "98b8b8af291a2147a307bf352304c19c51dc6f991fe6d29ea222d1529227a6d4",
+    "app/src/main/webapp/i18n/es/caseChecklist.json": "40244ed14d3ea75213536bcd9a1f34ba996554482b8e5f7500afa88686957968",
+    "app/src/main/java/com/amparia/assessment/application/OfficeAssessmentDecisionEditor.java": "2b06c11a27b58bb98ac7cae05cbfe73ec0eb7bec422b42f6e249e48e51fcf743"
+  },
+  "responseDestination": "amparia.legal@gmail.com",
+  "publicationUrl": "https://amparia.github.io/revision-estudio/",
+  "editionPath": "ediciones/2026.11.05.4/",
+  "submissionEnabled": false,
+  "responseForm": {
+    "provider": "GOOGLE_FORMS",
+    "edition": "2026.11.05.4",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdu2tUrP_TR7fwvvKE8q_VpwEuE9WIApOVKQmirZthbYYtlgQ/viewform"
+  },
+  "decisionOptions": [
+    {
+      "value": "AGREE",
+      "label": "Conforme con el bloque",
+      "formLabel": "Conforme"
+    },
+    {
+      "value": "CHANGE_REQUESTED",
+      "label": "Propongo cambios",
+      "formLabel": "Propongo cambios"
+    },
+    {
+      "value": "CLARIFICATION_REQUESTED",
+      "label": "Necesito una aclaración",
+      "formLabel": "Necesito aclaración"
+    },
+    {
+      "value": "UNDECIDED",
+      "label": "Dejar pendiente",
+      "formLabel": "Dejar pendiente"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "assessment_subject_eligibility",
+      "title": "Situación de la persona",
+      "source": "app/src/main/resources/legal-policy/assessment-rules/ar-debtor-bankruptcy-preliminary-assessment/2026.11.04-simplified.1.json",
+      "sourceSha256": "bb2ad7d343e6dfb11ce0f6d1d05eb11e74b69d67f22f1c2f586494c19fdc7661",
+      "members": [
+        "SUB-001",
+        "SUB-002",
+        "SUB-004",
+        "SUB-008",
+        "SUB-009",
+        "SUB-011"
+      ]
+    },
+    {
+      "id": "assessment_cessation_evidence",
+      "title": "Indicios de cesación de pagos",
+      "source": "app/src/main/resources/legal-policy/assessment-rules/ar-debtor-bankruptcy-preliminary-assessment/2026.11.04-simplified.1.json",
+      "sourceSha256": "bb2ad7d343e6dfb11ce0f6d1d05eb11e74b69d67f22f1c2f586494c19fdc7661",
+      "members": [
+        "CES-001",
+        "CES-002",
+        "CES-003",
+        "CES-008",
+        "CES-010",
+        "CES-011",
+        "CES-012",
+        "CES-014",
+        "CES-004",
+        "CES-005",
+        "CES-006",
+        "CES-007",
+        "CES-009"
+      ]
+    },
+    {
+      "id": "assessment_procedural_readiness",
+      "title": "Preparación del caso",
+      "source": "app/src/main/resources/legal-policy/assessment-rules/ar-debtor-bankruptcy-preliminary-assessment/2026.11.04-simplified.1.json",
+      "sourceSha256": "bb2ad7d343e6dfb11ce0f6d1d05eb11e74b69d67f22f1c2f586494c19fdc7661",
+      "members": [
+        "PRO-001",
+        "PRO-002",
+        "PRO-003",
+        "PRO-004",
+        "PRO-005",
+        "PRO-006",
+        "PRO-007"
+      ]
+    },
+    {
+      "id": "assessment_evidence_quality",
+      "title": "Calidad de la información",
+      "source": "app/src/main/resources/legal-policy/assessment-rules/ar-debtor-bankruptcy-preliminary-assessment/2026.11.04-simplified.1.json",
+      "sourceSha256": "bb2ad7d343e6dfb11ce0f6d1d05eb11e74b69d67f22f1c2f586494c19fdc7661",
+      "members": [
+        "EVI-001",
+        "EVI-002",
+        "EVI-003",
+        "EVI-004",
+        "EVI-005",
+        "EVI-006",
+        "EVI-007",
+        "EVI-008",
+        "EVI-009"
+      ]
+    },
+    {
+      "id": "checklist_ca",
+      "title": "Aceptación del caso",
+      "source": "app/src/main/resources/legal-policy/checklists/ar-debtor-bankruptcy-natural-person/2026.10.14-reviewed.1.json",
+      "sourceSha256": "a95c2ee359d1f6d7bcfac98d88168ea5c47877436630bbc2444d6ee5844cf451",
+      "members": [
+        "BASE-001",
+        "BASE-002",
+        "BASE-004",
+        "BASE-014",
+        "NP-001",
+        "NP-002",
+        "NP-003",
+        "NP-004",
+        "NP-008",
+        "NP-014"
+      ]
+    },
+    {
+      "id": "checklist_in",
+      "title": "Admisión",
+      "source": "app/src/main/resources/legal-policy/checklists/ar-debtor-bankruptcy-natural-person/2026.10.14-reviewed.1.json",
+      "sourceSha256": "a95c2ee359d1f6d7bcfac98d88168ea5c47877436630bbc2444d6ee5844cf451",
+      "members": [
+        "BASE-003"
+      ]
+    },
+    {
+      "id": "checklist_dc",
+      "title": "Recopilación de documentos",
+      "source": "app/src/main/resources/legal-policy/checklists/ar-debtor-bankruptcy-natural-person/2026.10.14-reviewed.1.json",
+      "sourceSha256": "a95c2ee359d1f6d7bcfac98d88168ea5c47877436630bbc2444d6ee5844cf451",
+      "members": [
+        "BASE-006",
+        "BASE-007",
+        "BASE-009",
+        "BASE-010",
+        "BASE-011",
+        "BASE-013",
+        "BASE-018",
+        "BASE-020",
+        "NP-005",
+        "NP-006",
+        "NP-007",
+        "NP-011",
+        "NP-012",
+        "NP-013"
+      ]
+    },
+    {
+      "id": "checklist_ar",
+      "title": "Evaluación preliminar",
+      "source": "app/src/main/resources/legal-policy/checklists/ar-debtor-bankruptcy-natural-person/2026.10.14-reviewed.1.json",
+      "sourceSha256": "a95c2ee359d1f6d7bcfac98d88168ea5c47877436630bbc2444d6ee5844cf451",
+      "members": [
+        "BASE-021"
+      ]
+    },
+    {
+      "id": "checklist_pr",
+      "title": "Revisión profesional",
+      "source": "app/src/main/resources/legal-policy/checklists/ar-debtor-bankruptcy-natural-person/2026.10.14-reviewed.1.json",
+      "sourceSha256": "a95c2ee359d1f6d7bcfac98d88168ea5c47877436630bbc2444d6ee5844cf451",
+      "members": [
+        "BASE-005",
+        "BASE-008",
+        "BASE-012",
+        "BASE-015",
+        "BASE-016",
+        "BASE-017",
+        "BASE-019",
+        "BASE-023",
+        "NP-009",
+        "NP-010"
+      ]
+    },
+    {
+      "id": "questionnaire_applicant_and_representation",
+      "title": "Solicitante y representación",
+      "source": "app/src/main/resources/legal-policy/intake-questionnaires/ar-debtor-bankruptcy-eligibility-screening/office-draft-1.0.json",
+      "sourceSha256": "7ac2a479e3d535272806b3bc6af58b489b467192be59da16346b51ec7313af4f",
+      "members": [
+        "APPLICANT_RELATIONSHIP",
+        "REPRESENTATIVE_AUTHORITY_AVAILABLE"
+      ]
+    },
+    {
+      "id": "questionnaire_subject_identity_and_scope",
+      "title": "Identificación y alcance",
+      "source": "app/src/main/resources/legal-policy/intake-questionnaires/ar-debtor-bankruptcy-eligibility-screening/office-draft-1.0.json",
+      "sourceSha256": "7ac2a479e3d535272806b3bc6af58b489b467192be59da16346b51ec7313af4f",
+      "members": [
+        "SUBJECT_LEGAL_NAME",
+        "SUBJECT_IDENTIFIER_TYPE",
+        "SUBJECT_IDENTIFIER_VALUE",
+        "SUBJECT_PRINCIPAL_DOMICILE",
+        "SUBJECT_ADMINISTRATION_LOCATION",
+        "SUBJECT_FOREIGN_ELEMENT",
+        "SUBJECT_REGULATED_ACTIVITY"
+      ]
+    },
+    {
+      "id": "questionnaire_initial_financial_situation",
+      "title": "Situación económica inicial",
+      "source": "app/src/main/resources/legal-policy/intake-questionnaires/ar-debtor-bankruptcy-eligibility-screening/office-draft-1.0.json",
+      "sourceSha256": "7ac2a479e3d535272806b3bc6af58b489b467192be59da16346b51ec7313af4f",
+      "members": [
+        "PAYMENT_DIFFICULTY_CURRENT",
+        "PAYMENT_DIFFICULTY_SINCE",
+        "OVERDUE_OBLIGATIONS",
+        "DECLARED_DEBT_TOTAL",
+        "KNOWN_CREDITOR_COUNT",
+        "ENFORCEMENT_OR_EMBARGO",
+        "OTHER_PROCEEDINGS",
+        "HAS_ASSETS",
+        "DECLARED_ASSET_TOTAL",
+        "REGULAR_INCOME_OR_REVENUE",
+        "DECLARED_INCOME_OR_REVENUE",
+        "DECLARED_ESSENTIAL_EXPENSES",
+        "ACTIVITY_INTERRUPTION",
+        "FINANCIAL_CONTEXT"
+      ]
+    },
+    {
+      "id": "questionnaire_natural_person_details",
+      "title": "Datos de la persona física",
+      "source": "app/src/main/resources/legal-policy/intake-questionnaires/ar-debtor-bankruptcy-eligibility-screening/office-draft-1.0.json",
+      "sourceSha256": "7ac2a479e3d535272806b3bc6af58b489b467192be59da16346b51ec7313af4f",
+      "members": [
+        "NATURAL_BIRTH_DATE",
+        "NATURAL_ACTIVITY_TYPE",
+        "NATURAL_REPRESENTATION_SUPPORT"
+      ]
+    }
+  ],
+  "effect": "FEEDBACK_ONLY_NO_POLICY_ACTIVATION"
+}
