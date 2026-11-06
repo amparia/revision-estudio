@@ -1,39 +1,49 @@
 {
-  "format": "amparia-office-review-packet/1",
-  "edition": "2026.11.05.3",
-  "sha256": "8269ba4e93c44cf7e2368a0da0aa0cad025b49a9bbcb67fec861311f3cc5330e",
-  "sourceRevision": "59855bc8f98ef4654c2e9e5f88f7f7808d1ff822",
+  "format": "amparia-office-review-packet/2",
+  "edition": "2026.11.05.4",
+  "sha256": "47c283179ee6637a2a301db8e15a2491ecbae1611a5b237ae802afc06e5b51f2",
+  "sourceRevision": "212e2890c4161681204c77c364fa8a7cc0810db4",
   "sourceFiles": {
     "app/src/main/resources/legal-policy/assessment-rules/ar-debtor-bankruptcy-preliminary-assessment/2026.11.04-simplified.1.json": "bb2ad7d343e6dfb11ce0f6d1d05eb11e74b69d67f22f1c2f586494c19fdc7661",
     "app/src/main/resources/legal-policy/checklists/ar-debtor-bankruptcy-natural-person/2026.10.14-reviewed.1.json": "a95c2ee359d1f6d7bcfac98d88168ea5c47877436630bbc2444d6ee5844cf451",
     "app/src/main/resources/legal-policy/intake-questionnaires/ar-debtor-bankruptcy-eligibility-screening/office-draft-1.0.json": "7ac2a479e3d535272806b3bc6af58b489b467192be59da16346b51ec7313af4f",
-    "site/office-review/content.es.json": "0b19fa6b37ee0963c00591d15858021384ea578d6c5f55f10095e121c7f1ce83",
-    "site/office-review/template.html": "ec3558c844cd60a6ee68f36a1bf0a93b14599f896401b44e8e7ba68c2fa0f4ae",
-    "site/office-review/style.css": "24b1d7e8356b312d56aae484bf0e857f424c5fa2527a413c9c74f44fc64c6f76",
-    "scripts/build_office_review_site.py": "f2a13b0dfe4d24bd0112bc99268c5a243daaec647d4dcff7323bdd2a45a51de5",
+    "site/office-review/content.es.json": "ecdd2033a662079b92e55d333a106cc8b7ea7e50660227dfc057cd4d12752f4d",
+    "site/office-review/template.html": "6e17ca3fd465941b4d724212586bc2046b6196f6a6e2aa0239ed2d7a61e0c850",
+    "site/office-review/style.css": "688c539810d5ec42b3d4eba7d6094f28c542f14d6361f5f5faeda81f83cd6daf",
+    "scripts/build_office_review_site.py": "dd90b85cb9c5a84e2bcf33ee3f8d34be159dac207ebe61b17cd95af862e2e5ed",
     "app/src/main/webapp/i18n/es/officeReview.json": "98b8b8af291a2147a307bf352304c19c51dc6f991fe6d29ea222d1529227a6d4",
     "app/src/main/webapp/i18n/es/caseChecklist.json": "40244ed14d3ea75213536bcd9a1f34ba996554482b8e5f7500afa88686957968",
     "app/src/main/java/com/amparia/assessment/application/OfficeAssessmentDecisionEditor.java": "2b06c11a27b58bb98ac7cae05cbfe73ec0eb7bec422b42f6e249e48e51fcf743"
   },
   "responseDestination": "amparia.legal@gmail.com",
   "publicationUrl": "https://amparia.github.io/revision-estudio/",
+  "editionPath": "ediciones/2026.11.05.4/",
   "submissionEnabled": false,
+  "responseForm": {
+    "provider": "GOOGLE_FORMS",
+    "edition": "2026.11.05.4",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdu2tUrP_TR7fwvvKE8q_VpwEuE9WIApOVKQmirZthbYYtlgQ/viewform"
+  },
   "decisionOptions": [
     {
       "value": "AGREE",
-      "label": "Conforme con el bloque"
+      "label": "Conforme con el bloque",
+      "formLabel": "Conforme"
     },
     {
       "value": "CHANGE_REQUESTED",
-      "label": "Propongo cambios"
+      "label": "Propongo cambios",
+      "formLabel": "Propongo cambios"
     },
     {
       "value": "CLARIFICATION_REQUESTED",
-      "label": "Necesito una aclaración"
+      "label": "Necesito una aclaración",
+      "formLabel": "Necesito aclaración"
     },
     {
       "value": "UNDECIDED",
-      "label": "Dejar pendiente"
+      "label": "Dejar pendiente",
+      "formLabel": "Dejar pendiente"
     }
   ],
   "blocks": [
